@@ -3,6 +3,7 @@ import { HeroScene } from "../../components/gsap/HeroScene";
 import { Reveal } from "../../components/motion/Reveal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { MagneticButton } from "../../components/motion/MagneticButton";
 
 export default function ClinicLandingPage() {
     return (
@@ -364,10 +365,28 @@ export default function ClinicLandingPage() {
                     <p className="text-black/70 text-xl md:text-2xl font-medium mb-12 max-w-2xl mx-auto">
                         احجزي موعدك الآن واستفيدي من التقييم الشامل مع نخبة من أطباء العيادة.
                     </p>
-                    <a href="https://wa.me/something" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-3 px-12 py-6 bg-[#25D366] text-white rounded-full font-bold text-xl hover:bg-[#128C7E] transition-transform hover:scale-105 active:scale-95 shadow-[0_20px_40px_rgba(37,211,102,0.3)]">
-                        <span>تواصل معنا عبر واتساب</span>
-                        <FontAwesomeIcon icon={faWhatsapp} className="text-3xl" />
-                    </a>
+                    <MagneticButton>
+                        <a href="https://wa.me/something" target="_blank" rel="noopener noreferrer" className="group relative inline-flex items-center justify-center gap-5 px-10 py-5 rounded-full overflow-hidden shadow-[0_15px_30px_rgba(37,211,102,0.2)] hover:shadow-[0_20px_40px_rgba(37,211,102,0.4)] transition-all duration-700 ease-out">
+                            {/* Base green background with scale effect */}
+                            <div className="absolute inset-0 bg-[#25D366] transition-transform duration-700 group-hover:scale-[1.05]" />
+
+                            {/* Light sweeping effect on hover */}
+                            <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/30 to-transparent -translate-x-[150%] skew-x-[-30deg] group-hover:translate-x-[150%] transition-transform duration-1000 ease-in-out" />
+
+                            {/* Inner glass rim for depth */}
+                            <div className="absolute inset-0 border border-white/30 rounded-full" />
+
+                            {/* Content */}
+                            <div className="relative z-10 flex items-center gap-4">
+                                <span className="font-extrabold text-2xl text-white tracking-wide mix-blend-overlay opacity-90">تواصل معنا عبر واتساب</span>
+                                <span className="font-extrabold text-2xl text-white tracking-wide absolute">تواصل معنا عبر واتساب</span> {/* Double text for crispness with mix-blend */}
+
+                                <div className="ml-2 w-12 h-12 bg-black/10 backdrop-blur-md rounded-full flex items-center justify-center border border-white/40 group-hover:-rotate-12 group-hover:scale-110 group-hover:bg-black/20 transition-all duration-500 shadow-inner">
+                                    <FontAwesomeIcon icon={faWhatsapp} className="text-3xl text-white drop-shadow-md" />
+                                </div>
+                            </div>
+                        </a>
+                    </MagneticButton>
                 </div>
             </section>
 
