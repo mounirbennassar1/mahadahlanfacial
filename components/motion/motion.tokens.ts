@@ -27,4 +27,4 @@ export const BEZIER = {
     lux: [0.76, 0, 0.24, 1],
     out: [0.33, 1, 0.68, 1],
     inOut: [0.65, 0, 0.35, 1],
-};
+} as const;
