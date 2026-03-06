@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { HeroScene } from "../../components/gsap/HeroScene";
 import { Reveal } from "../../components/motion/Reveal";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 export default function ClinicLandingPage() {
     return (
@@ -362,9 +364,9 @@ export default function ClinicLandingPage() {
                     <p className="text-black/70 text-xl md:text-2xl font-medium mb-12 max-w-2xl mx-auto">
                         احجزي موعدك الآن واستفيدي من التقييم الشامل مع نخبة من أطباء العيادة.
                     </p>
-                    <a href="https://wa.me/something" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-3 px-12 py-6 bg-black text-white rounded-full font-bold text-xl hover:bg-zinc-900 transition-transform hover:scale-105 active:scale-95 shadow-[0_20px_40px_rgba(0,0,0,0.3)]">
+                    <a href="https://wa.me/something" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-3 px-12 py-6 bg-[#25D366] text-white rounded-full font-bold text-xl hover:bg-[#128C7E] transition-transform hover:scale-105 active:scale-95 shadow-[0_20px_40px_rgba(37,211,102,0.3)]">
                         <span>تواصل معنا عبر واتساب</span>
-                        <span className="text-2xl">📱</span>
+                        <FontAwesomeIcon icon={faWhatsapp} className="text-3xl" />
                     </a>
                 </div>
             </section>
