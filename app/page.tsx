@@ -220,22 +220,32 @@ export default function ClinicLandingPage() {
 
                     <Reveal direction="up" delay={0.2}>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
-                            {/* Comparison 1 */}
+                            {/* Comparison 1: Siciloz */}
                             <div className="group relative rounded-[2rem] overflow-hidden bg-[#111] border border-white/5 aspect-square md:aspect-[4/3] shadow-[0_20px_40px_rgba(0,0,0,0.5)]">
-                                {/* Before Image Placeholder */}
-                                <div className="absolute inset-0 bg-zinc-800 flex items-center justify-center">
-                                    <span className="text-zinc-600 font-bold text-2xl">قبل</span>
+                                {/* Before Image */}
+                                <div className="absolute inset-0 bg-zinc-800">
+                                    <img
+                                        src="https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?q=80&w=800&auto=format&fit=crop"
+                                        alt="Before Siciloz - Skin condition"
+                                        className="w-full h-full object-cover saturate-50 contrast-75 brightness-75"
+                                    />
+                                    <div className="absolute top-4 right-4 bg-black/60 backdrop-blur-md px-3 py-1 rounded-full text-zinc-300 font-bold text-sm">قبل</div>
                                 </div>
-                                {/* After Image Placeholder (Revealed on hover via clip-path or simple opacity) */}
-                                <div className="absolute inset-y-0 right-0 w-1/2 bg-[#D4AF37]/10 flex items-center justify-center border-l-2 border-[#D4AF37] backdrop-blur-sm transition-all duration-700 ease-in-out group-hover:w-[95%]">
-                                    <div className="absolute inset-0 bg-gradient-to-r from-transparent to-[#D4AF37]/20 mix-blend-overlay" />
-                                    <span className="text-[#D4AF37] font-bold text-2xl drop-shadow-md z-10">بعد</span>
-                                    <div className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 w-8 h-8 bg-[#D4AF37] rounded-full flex items-center justify-center shadow-[0_0_20px_rgba(228,187,81,0.5)] cursor-ew-resize">
+                                {/* After Image Reveal */}
+                                <div className="absolute inset-y-0 right-0 w-1/2 overflow-hidden border-l-2 border-[#D4AF37] transition-all duration-700 ease-in-out group-hover:w-[95%]">
+                                    <img
+                                        src="https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?q=80&w=800&auto=format&fit=crop"
+                                        alt="After Siciloz - Rejuvenated skin"
+                                        className="absolute inset-0 w-full h-full object-cover object-left filter-none"
+                                        style={{ width: '200%', maxWidth: 'none', transform: 'translateX(0)' }}
+                                    />
+                                    <div className="absolute top-4 left-4 bg-[#D4AF37]/80 backdrop-blur-md px-3 py-1 rounded-full text-black font-bold text-sm z-10">بعد</div>
+                                    <div className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 w-8 h-8 bg-[#D4AF37] rounded-full flex items-center justify-center shadow-[0_0_20px_rgba(228,187,81,0.5)] cursor-ew-resize z-20">
                                         <span className="text-black text-xs">↔</span>
                                     </div>
                                 </div>
-                                <div className="absolute bottom-6 right-6 bg-black/60 backdrop-blur-md px-4 py-2 rounded-full border border-white/10 text-white text-sm font-medium">
-                                    علاج تساقط الشعر (ديتوكس الفروة)
+                                <div className="absolute bottom-6 right-6 bg-black/60 backdrop-blur-md px-4 py-2 rounded-full border border-white/10 text-white text-sm font-medium z-10">
+                                    علاج سيسلوز
                                 </div>
                             </div>
 
