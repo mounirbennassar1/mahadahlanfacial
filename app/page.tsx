@@ -375,41 +375,93 @@ export default function ClinicLandingPage() {
                 </div>
             </section>
 
-            {/* CTA Background Fill */}
-            <section id="booking" className="relative py-32 bg-[#D4AF37]">
-                <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 mix-blend-overlay z-0" />
-                <div className="container mx-auto px-6 relative z-10 text-center">
-                    <h2 className="text-4xl md:text-6xl font-black text-black mb-8 leading-tight">
-                        خطوتك الأولى نحو<br />
-                        بشرة مثالية وشعر صحي
-                    </h2>
-                    <p className="text-black/70 text-xl md:text-2xl font-medium mb-12 max-w-2xl mx-auto">
-                        احجزي موعدك الآن واستفيدي من التقييم الشامل مع نخبة من أطباء العيادة.
-                    </p>
-                    <MagneticButton>
-                        <a href="https://wa.me/something" target="_blank" rel="noopener noreferrer" className="group relative inline-flex items-center justify-center gap-5 px-10 py-5 rounded-full overflow-hidden shadow-[0_15px_30px_rgba(37,211,102,0.2)] hover:shadow-[0_20px_40px_rgba(37,211,102,0.4)] transition-all duration-700 ease-out">
-                            {/* Base green background with scale effect */}
-                            <div className="absolute inset-0 bg-[#25D366] transition-transform duration-700 group-hover:scale-[1.05]" />
+            {/* CTA Section - Modern Redesign */}
+            <section id="booking" className="relative py-32 overflow-hidden bg-[#050505]">
 
-                            {/* Light sweeping effect on hover */}
-                            <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/30 to-transparent -translate-x-[150%] skew-x-[-30deg] group-hover:translate-x-[150%] transition-transform duration-1000 ease-in-out" />
+                {/* Multi-layer background */}
+                <div className="absolute inset-0 bg-gradient-to-br from-[#0a0a0a] via-[#111] to-[#0a0a0a]" />
 
-                            {/* Inner glass rim for depth */}
-                            <div className="absolute inset-0 border border-white/30 rounded-full" />
+                {/* Gold ambient orbs */}
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-[#D4AF37]/10 rounded-full blur-[120px] pointer-events-none" />
+                <div className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-[#D4AF37]/8 rounded-full blur-[100px] pointer-events-none" />
+                <div className="absolute top-1/2 left-0 w-[300px] h-[300px] bg-[#B8860B]/10 rounded-full blur-[80px] pointer-events-none" />
 
-                            {/* Content */}
-                            <div className="relative z-10 flex items-center gap-4">
-                                <span className="font-extrabold text-2xl text-white tracking-wide mix-blend-overlay opacity-90">تواصل معنا عبر واتساب</span>
-                                <span className="font-extrabold text-2xl text-white tracking-wide absolute">تواصل معنا عبر واتساب</span> {/* Double text for crispness with mix-blend */}
+                {/* Grain texture overlay */}
+                <div className="absolute inset-0 opacity-[0.03] bg-[url('https://grainy-gradients.vercel.app/noise.svg')] z-0" />
 
-                                <div className="ml-2 w-12 h-12 bg-black/10 backdrop-blur-md rounded-full flex items-center justify-center border border-white/40 group-hover:-rotate-12 group-hover:scale-110 group-hover:bg-black/20 transition-all duration-500 shadow-inner">
-                                    <FontAwesomeIcon icon={faWhatsapp} className="text-3xl text-white drop-shadow-md" />
+                {/* Top & bottom gold hairlines */}
+                <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#D4AF37]/60 to-transparent" />
+                <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[#D4AF37]/30 to-transparent" />
+
+                <div className="container mx-auto px-6 relative z-10">
+                    <div className="max-w-4xl mx-auto text-center">
+
+                        {/* Eyebrow badge */}
+                        <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/5 backdrop-blur-md mb-10">
+                            <span className="w-2 h-2 rounded-full bg-[#D4AF37] animate-pulse" />
+                            <span className="text-[#D4AF37] text-sm font-semibold tracking-widest uppercase">احجزي موعدك الآن</span>
+                        </div>
+
+                        {/* Headline */}
+                        <h2 className="text-5xl md:text-7xl font-black text-white mb-6 leading-tight tracking-tight">
+                            خطوتك الأولى نحو
+                            <br />
+                            <span className="text-transparent bg-clip-text bg-gradient-to-l from-[#D4AF37] via-[#F5D090] to-[#B8860B]">
+                                بشرة مثالية وشعر صحي
+                            </span>
+                        </h2>
+
+                        {/* Sub-text */}
+                        <p className="text-zinc-400 text-xl md:text-2xl font-light mb-16 max-w-2xl mx-auto leading-relaxed">
+                            استفيدي من التقييم الشامل مع نخبة من أطباء العيادة وابدئي رحلتك نحو الجمال الحقيقي.
+                        </p>
+
+                        {/* CTA Button */}
+                        <MagneticButton>
+                            <a href="https://wa.me/something" target="_blank" rel="noopener noreferrer" className="group relative inline-flex items-center justify-center gap-5 px-10 py-5 rounded-full overflow-hidden shadow-[0_15px_30px_rgba(37,211,102,0.2)] hover:shadow-[0_20px_40px_rgba(37,211,102,0.4)] transition-all duration-700 ease-out">
+                                {/* Base green background with scale effect */}
+                                <div className="absolute inset-0 bg-[#25D366] transition-transform duration-700 group-hover:scale-[1.05]" />
+
+                                {/* Light sweeping effect on hover */}
+                                <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/30 to-transparent -translate-x-[150%] skew-x-[-30deg] group-hover:translate-x-[150%] transition-transform duration-1000 ease-in-out" />
+
+                                {/* Inner glass rim for depth */}
+                                <div className="absolute inset-0 border border-white/30 rounded-full" />
+
+                                {/* Content */}
+                                <div className="relative z-10 flex items-center gap-4">
+                                    <span className="font-extrabold text-2xl text-white tracking-wide mix-blend-overlay opacity-90">تواصل معنا عبر واتساب</span>
+                                    <span className="font-extrabold text-2xl text-white tracking-wide absolute">تواصل معنا عبر واتساب</span>
+
+                                    <div className="ml-2 w-12 h-12 bg-black/10 backdrop-blur-md rounded-full flex items-center justify-center border border-white/40 group-hover:-rotate-12 group-hover:scale-110 group-hover:bg-black/20 transition-all duration-500 shadow-inner">
+                                        <FontAwesomeIcon icon={faWhatsapp} className="text-3xl text-white drop-shadow-md" />
+                                    </div>
                                 </div>
+                            </a>
+                        </MagneticButton>
+
+                        {/* Trust indicators */}
+                        <div className="mt-16 flex flex-wrap justify-center gap-8 text-center">
+                            <div className="flex flex-col items-center gap-1">
+                                <span className="text-[#D4AF37] font-black text-3xl">+١٥</span>
+                                <span className="text-zinc-500 text-sm">سنة خبرة</span>
                             </div>
-                        </a>
-                    </MagneticButton>
+                            <div className="w-px h-12 bg-white/10 self-center" />
+                            <div className="flex flex-col items-center gap-1">
+                                <span className="text-[#D4AF37] font-black text-3xl">١٠٠٪</span>
+                                <span className="text-zinc-500 text-sm">نتائج مضمونة</span>
+                            </div>
+                            <div className="w-px h-12 bg-white/10 self-center" />
+                            <div className="flex flex-col items-center gap-1">
+                                <span className="text-[#D4AF37] font-black text-3xl">آمن</span>
+                                <span className="text-zinc-500 text-sm">معتمد طبياً</span>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </section>
+
 
             {/* Sleek Footer */}
             <footer className="bg-black py-12 border-t border-white/5">
