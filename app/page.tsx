@@ -62,7 +62,7 @@ export default function ClinicLandingPage() {
                                         <div className="w-full h-48 md:h-56 rounded-2xl overflow-hidden mb-8 relative border border-white/5 group-hover:border-[#D4AF37]/30 transition-colors duration-500">
                                             <div className="absolute inset-0 bg-gradient-to-t from-[#111] via-black/20 to-transparent z-10" />
                                             {/* eslint-disable-next-line @next/next/no-img-element */}
-                                            <img src="https://images.unsplash.com/photo-1560944527-a4a429848866?auto=format&fit=crop&q=80&w=800" alt="Detox Scalp" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out" />
+                                            <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&q=80&w=800" alt="Detox Scalp" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out" />
                                         </div>
                                         <h4 className="text-3xl font-bold text-white mb-3">ديتوكس تنظيف فروة الرأس</h4>
                                         <p className="text-[#D4AF37] mb-6 font-medium text-lg">Detox Scalp | علاج للقشرة والتساقط</p>
