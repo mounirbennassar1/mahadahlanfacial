@@ -308,7 +308,7 @@ export default function ClinicLandingPage() {
                             {/* Video Service 1 */}
                             <div className="group relative rounded-[2rem] aspect-[9/16] bg-zinc-900 overflow-hidden cursor-pointer border border-white/5 hover:border-[#D4AF37]/50 transition-colors">
                                 <video
-                                    src="/videos/hydra.mov"
+                                    src="https://res.cloudinary.com/dnyw2doel/video/upload/v1772900684/db7uytaxmhrumpj0ftg9.mov"
                                     autoPlay
                                     loop
                                     muted
@@ -331,7 +331,7 @@ export default function ClinicLandingPage() {
                             {/* Video Service 2 */}
                             <div className="group relative rounded-[2rem] aspect-[9/16] bg-zinc-900 overflow-hidden cursor-pointer border border-white/5 hover:border-[#D4AF37]/50 transition-colors md:-translate-y-8">
                                 <video
-                                    src="/videos/siciloz.mov"
+                                    src="https://res.cloudinary.com/dnyw2doel/video/upload/v1772900950/uupbeol5xwleczpd4yfz.mp4"
                                     autoPlay
                                     loop
                                     muted
