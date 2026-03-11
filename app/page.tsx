@@ -205,82 +205,7 @@ export default function ClinicLandingPage() {
                 </div>
             </section>
 
-            {/* Before & After Section */}
-            <section id="before-after" className="relative py-24 bg-[#050505]">
-                <div className="container mx-auto px-6 relative z-10">
-                    <Reveal direction="up">
-                        <div className="text-center max-w-3xl mx-auto mb-16">
-                            <h2 className="text-sm md:text-base font-bold text-[#D4AF37] tracking-widest uppercase mb-3">نتائج حقيقية</h2>
-                            <h3 className="text-4xl md:text-5xl font-black text-white mb-6">قصص نجاح عملائنا</h3>
-                            <p className="text-zinc-400 text-xl font-light">
-                                شاهد الفرق الواضح والنتائج المذهلة قبل وبعد العلاج في عياداتنا.
-                            </p>
-                        </div>
-                    </Reveal>
 
-                    <Reveal direction="up" delay={0.2}>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
-                            {/* Comparison 1: Siciloz */}
-                            <div className="group relative rounded-[2rem] overflow-hidden bg-[#111] border border-white/5 aspect-square md:aspect-[4/3] shadow-[0_20px_40px_rgba(0,0,0,0.5)]">
-                                {/* Before Image */}
-                                <div className="absolute inset-0 bg-zinc-800">
-                                    <img
-                                        src="https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?q=80&w=800&auto=format&fit=crop"
-                                        alt="Before Siciloz - Skin condition"
-                                        className="w-full h-full object-cover saturate-50 contrast-75 brightness-75"
-                                    />
-                                    <div className="absolute top-4 right-4 bg-black/60 backdrop-blur-md px-3 py-1 rounded-full text-zinc-300 font-bold text-sm">قبل</div>
-                                </div>
-                                {/* After Image Reveal */}
-                                <div className="absolute inset-y-0 right-0 w-1/2 overflow-hidden border-l-2 border-[#D4AF37] transition-all duration-700 ease-in-out group-hover:w-[95%]">
-                                    <img
-                                        src="https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?q=80&w=800&auto=format&fit=crop"
-                                        alt="After Siciloz - Rejuvenated skin"
-                                        className="absolute inset-0 w-full h-full object-cover object-left filter-none"
-                                        style={{ width: '200%', maxWidth: 'none', transform: 'translateX(0)' }}
-                                    />
-                                    <div className="absolute top-4 left-4 bg-[#D4AF37]/80 backdrop-blur-md px-3 py-1 rounded-full text-black font-bold text-sm z-10">بعد</div>
-                                    <div className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 w-8 h-8 bg-[#D4AF37] rounded-full flex items-center justify-center shadow-[0_0_20px_rgba(228,187,81,0.5)] cursor-ew-resize z-20">
-                                        <span className="text-black text-xs">↔</span>
-                                    </div>
-                                </div>
-                                <div className="absolute bottom-6 right-6 bg-black/60 backdrop-blur-md px-4 py-2 rounded-full border border-white/10 text-white text-sm font-medium z-10">
-                                    علاج سيسلوز
-                                </div>
-                            </div>
-
-                            {/* Comparison 2: Hydrafacial */}
-                            <div className="group relative rounded-[2rem] overflow-hidden bg-[#111] border border-white/5 aspect-square md:aspect-[4/3] shadow-[0_20px_40px_rgba(0,0,0,0.5)]">
-                                {/* Before Image */}
-                                <div className="absolute inset-0 bg-zinc-800">
-                                    <img
-                                        src="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?q=80&w=800&auto=format&fit=crop"
-                                        alt="Before Hydrafacial - Dull skin"
-                                        className="w-full h-full object-cover saturate-50 contrast-75 brightness-75"
-                                    />
-                                    <div className="absolute top-4 right-4 bg-black/60 backdrop-blur-md px-3 py-1 rounded-full text-zinc-300 font-bold text-sm">قبل</div>
-                                </div>
-                                {/* After Image Reveal */}
-                                <div className="absolute inset-y-0 right-0 w-1/2 overflow-hidden border-l-2 border-orange-500 transition-all duration-700 ease-in-out group-hover:w-[95%]">
-                                    <img
-                                        src="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?q=80&w=800&auto=format&fit=crop"
-                                        alt="After Hydrafacial - Glowing skin"
-                                        className="absolute inset-0 w-full h-full object-cover object-left filter-none"
-                                        style={{ width: '200%', maxWidth: 'none', transform: 'translateX(0)' }}
-                                    />
-                                    <div className="absolute top-4 left-4 bg-orange-500/80 backdrop-blur-md px-3 py-1 rounded-full text-white font-bold text-sm z-10">بعد</div>
-                                    <div className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center shadow-[0_0_20px_rgba(249,115,22,0.5)] cursor-ew-resize z-20">
-                                        <span className="text-black text-xs">↔</span>
-                                    </div>
-                                </div>
-                                <div className="absolute bottom-6 right-6 bg-black/60 backdrop-blur-md px-4 py-2 rounded-full border border-white/10 text-white text-sm font-medium z-10">
-                                    جلسة الهايدرافيشل وتصغير المسام
-                                </div>
-                            </div>
-                        </div>
-                    </Reveal>
-                </div>
-            </section>
 
             {/* Testimonials & Videos Section */}
             <section className="relative py-24 bg-[#0a0a0a] border-t border-white/5 overflow-hidden">
@@ -350,26 +275,28 @@ export default function ClinicLandingPage() {
                                 </div>
                             </div>
 
-                            {/* Video Testimonial 3 */}
-                            <div className="group relative rounded-[2rem] aspect-[9/16] bg-zinc-900 overflow-hidden cursor-pointer border border-white/5 hover:border-[#D4AF37]/50 transition-colors">
-                                <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?w=600&h=1000&fit=crop')] bg-cover bg-center opacity-60 group-hover:opacity-40 transition-opacity duration-700" />
+                            {/* Video Service 3 */}
+                            <div className="group relative rounded-[2rem] aspect-[9/16] bg-zinc-900 overflow-hidden cursor-pointer border border-white/5 hover:border-[#D4AF37]/50 transition-colors md:-translate-y-8">
+                                <video
+                                    src="https://res.cloudinary.com/dnyw2doel/video/upload/v1773198384/r5durmp6pvhjg0oviukt.mov"
+                                    autoPlay
+                                    loop
+                                    muted
+                                    playsInline
+                                    className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:opacity-60 transition-opacity duration-700"
+                                />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent" />
 
-                                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-16 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center group-hover:bg-[#D4AF37] transition-all duration-300 shadow-[0_0_30px_rgba(0,0,0,0.5)]">
+                                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-16 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center group-hover:bg-[#D4AF37] opacity-0 group-hover:opacity-100 transition-all duration-300 shadow-[0_0_30px_rgba(0,0,0,0.5)]">
                                     <div className="w-0 h-0 border-t-[8px] border-t-transparent border-l-[14px] border-l-white group-hover:border-l-black border-b-[8px] border-b-transparent ml-1" />
                                 </div>
 
                                 <div className="absolute bottom-6 left-6 right-6">
-                                    <div className="flex items-center gap-3 mb-3">
-                                        <div className="w-10 h-10 rounded-full bg-zinc-800 border-2 border-[#D4AF37]" />
-                                        <div>
-                                            <p className="text-white font-bold text-sm">نورة ك.</p>
-                                            <div className="flex text-[#D4AF37] text-xs">★★★★★</div>
-                                        </div>
-                                    </div>
-                                    <p className="text-zinc-300 text-sm italic">"جلسة الأوشن سيكرتس بالكافيار تعطي ترطيب خيالي قبل المناسبات."</p>
+                                    <h4 className="text-white font-bold text-xl mb-2">جلسات كورية</h4>
+                                    <p className="text-zinc-300 text-sm">اكتشف تفاصيل الدقة والعناية في تقديم هذا البروتوكول العلاجي.</p>
                                 </div>
                             </div>
+
                         </div>
                     </Reveal>
                 </div>
