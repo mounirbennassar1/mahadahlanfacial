@@ -345,7 +345,7 @@ export default function ClinicLandingPage() {
 
                         {/* CTA Button */}
                         <MagneticButton>
-                            <a href="https://wa.me/something" target="_blank" rel="noopener noreferrer" className="group relative inline-flex items-center justify-center gap-5 px-10 py-5 rounded-full overflow-hidden shadow-[0_15px_30px_rgba(37,211,102,0.2)] hover:shadow-[0_20px_40px_rgba(37,211,102,0.4)] transition-all duration-700 ease-out">
+                            <a href="https://wa.me/966503377702" target="_blank" rel="noopener noreferrer" className="group relative inline-flex items-center justify-center gap-5 px-10 py-5 rounded-full overflow-hidden shadow-[0_15px_30px_rgba(37,211,102,0.2)] hover:shadow-[0_20px_40px_rgba(37,211,102,0.4)] transition-all duration-700 ease-out">
                                 {/* Base green background with scale effect */}
                                 <div className="absolute inset-0 bg-[#25D366] transition-transform duration-700 group-hover:scale-[1.05]" />
 
