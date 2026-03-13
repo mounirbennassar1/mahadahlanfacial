@@ -62,7 +62,7 @@ export default function ClinicLandingPage() {
                                         <div className="w-full h-48 md:h-56 rounded-2xl overflow-hidden mb-8 relative border border-white/5 group-hover:border-[#D4AF37]/30 transition-colors duration-500">
                                             <div className="absolute inset-0 bg-gradient-to-t from-[#111] via-black/20 to-transparent z-10" />
                                             {/* eslint-disable-next-line @next/next/no-img-element */}
-                                            <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&q=80&w=800" alt="Detox Scalp" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out" />
+                                            <img src="/scalpdetox.jpg" alt="Detox Scalp" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out" />
                                         </div>
                                         <h4 className="text-3xl font-bold text-white mb-3">ديتوكس تنظيف فروة الرأس</h4>
                                         <p className="text-[#D4AF37] mb-6 font-medium text-lg">Detox Scalp | علاج للقشرة والتساقط</p>
@@ -99,7 +99,7 @@ export default function ClinicLandingPage() {
                                         <div className="w-full h-48 md:h-56 rounded-2xl overflow-hidden mb-8 relative border border-white/5 group-hover:border-orange-500/30 transition-colors duration-500">
                                             <div className="absolute inset-0 bg-gradient-to-t from-[#111] via-black/20 to-transparent z-10" />
                                             {/* eslint-disable-next-line @next/next/no-img-element */}
-                                            <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&q=80&w=800" alt="Vitamin C Facial" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out" />
+                                            <img src="/vitaminec.jpg" alt="Vitamin C Facial" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out" />
                                         </div>
                                         <h4 className="text-3xl font-bold text-white mb-3">جلسة تنظيف البشرة بفيتامين C</h4>
                                         <p className="text-orange-400 mb-6 font-medium text-lg">تفتيح ونضارة | تحفيز كولاجين</p>
@@ -135,7 +135,7 @@ export default function ClinicLandingPage() {
                                         <div className="w-full h-48 md:h-56 rounded-2xl overflow-hidden mb-8 relative border border-white/5 group-hover:border-blue-500/30 transition-colors duration-500">
                                             <div className="absolute inset-0 bg-gradient-to-t from-[#111] via-black/20 to-transparent z-10" />
                                             {/* eslint-disable-next-line @next/next/no-img-element */}
-                                            <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800" alt="Ocean Secrets Caviar" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out" />
+                                            <img src="/oceansecrets.jpg" alt="Ocean Secrets Caviar" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out" />
                                         </div>
                                         <h4 className="text-3xl font-bold text-white mb-3">جلسة Ocean Secrets بالكافيار</h4>
                                         <p className="text-blue-400 mb-6 font-medium text-lg">علاج وترطيب عميق للبشرة</p>
@@ -171,7 +171,7 @@ export default function ClinicLandingPage() {
                                         <div className="w-full h-48 md:h-56 rounded-2xl overflow-hidden mb-8 relative border border-white/5 group-hover:border-[#D4AF37]/30 transition-colors duration-500">
                                             <div className="absolute inset-0 bg-gradient-to-t from-[#111] via-black/20 to-transparent z-10" />
                                             {/* eslint-disable-next-line @next/next/no-img-element */}
-                                            <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&q=80&w=800" alt="Hydrafacial" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out" />
+                                            <img src="/closeup-portrait-beautiful-woman-cosmetology-therapy-beauty-salon-professional-dermatology-procedures-lifting-rejuvenation-modern-devices-healthcare.jpg" alt="Hydrafacial" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out" />
                                         </div>
                                         <h4 className="text-3xl font-bold text-white mb-3">جلسة الهايدرافيشل (CO2)</h4>
                                         <p className="text-[#D4AF37] mb-6 font-medium text-lg">تنظيف مسام عميق | شد خفيف</p>
@@ -344,28 +344,10 @@ export default function ClinicLandingPage() {
                         </p>
 
                         {/* CTA Button */}
-                        <MagneticButton>
-                            <a href="https://wa.me/966503377702" target="_blank" rel="noopener noreferrer" className="group relative inline-flex items-center justify-center gap-5 px-10 py-5 rounded-full overflow-hidden shadow-[0_15px_30px_rgba(37,211,102,0.2)] hover:shadow-[0_20px_40px_rgba(37,211,102,0.4)] transition-all duration-700 ease-out">
-                                {/* Base green background with scale effect */}
-                                <div className="absolute inset-0 bg-[#25D366] transition-transform duration-700 group-hover:scale-[1.05]" />
-
-                                {/* Light sweeping effect on hover */}
-                                <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/30 to-transparent -translate-x-[150%] skew-x-[-30deg] group-hover:translate-x-[150%] transition-transform duration-1000 ease-in-out" />
-
-                                {/* Inner glass rim for depth */}
-                                <div className="absolute inset-0 border border-white/30 rounded-full" />
-
-                                {/* Content */}
-                                <div className="relative z-10 flex items-center gap-4">
-                                    <span className="font-extrabold text-2xl text-white tracking-wide mix-blend-overlay opacity-90">تواصل معنا عبر واتساب</span>
-                                    <span className="font-extrabold text-2xl text-white tracking-wide absolute">تواصل معنا عبر واتساب</span>
-
-                                    <div className="ml-2 w-12 h-12 bg-black/10 backdrop-blur-md rounded-full flex items-center justify-center border border-white/40 group-hover:-rotate-12 group-hover:scale-110 group-hover:bg-black/20 transition-all duration-500 shadow-inner">
-                                        <FontAwesomeIcon icon={faWhatsapp} className="text-3xl text-white drop-shadow-md" />
-                                    </div>
-                                </div>
-                            </a>
-                        </MagneticButton>
+                        <a href="https://wa.me/966503377702" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2.5 px-6 py-3 rounded-lg bg-[#25D366] hover:bg-[#1EBE5D] text-white text-base font-medium transition-colors duration-200">
+                            <svg className="w-5 h-5 fill-current" viewBox="0 0 448 512"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.8-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+                            تواصل معنا عبر واتساب
+                        </a>
 
                         {/* Trust indicators */}
                         <div className="mt-16 flex flex-wrap justify-center gap-8 text-center">
