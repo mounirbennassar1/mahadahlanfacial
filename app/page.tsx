@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { HeroScene } from "../components/gsap/HeroScene";
 import { Reveal } from "../components/motion/Reveal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -61,8 +62,7 @@ export default function ClinicLandingPage() {
                                     <div>
                                         <div className="w-full h-48 md:h-56 rounded-2xl overflow-hidden mb-8 relative border border-white/5 group-hover:border-[#D4AF37]/30 transition-colors duration-500">
                                             <div className="absolute inset-0 bg-gradient-to-t from-[#111] via-black/20 to-transparent z-10" />
-                                            {/* eslint-disable-next-line @next/next/no-img-element */}
-                                            <img src="/scalpdetox.jpg" alt="Detox Scalp" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out" />
+                                            <Image src="/scalpdetox.jpg" alt="Detox Scalp" width={800} height={597} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out" />
                                         </div>
                                         <h4 className="text-3xl font-bold text-white mb-3">ديتوكس تنظيف فروة الرأس</h4>
                                         <p className="text-[#D4AF37] mb-6 font-medium text-lg">Detox Scalp | علاج للقشرة والتساقط</p>
@@ -98,8 +98,7 @@ export default function ClinicLandingPage() {
                                     <div>
                                         <div className="w-full h-48 md:h-56 rounded-2xl overflow-hidden mb-8 relative border border-white/5 group-hover:border-orange-500/30 transition-colors duration-500">
                                             <div className="absolute inset-0 bg-gradient-to-t from-[#111] via-black/20 to-transparent z-10" />
-                                            {/* eslint-disable-next-line @next/next/no-img-element */}
-                                            <img src="/vitaminec.jpg" alt="Vitamin C Facial" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out" />
+                                            <Image src="/vitaminec.jpg" alt="Vitamin C Facial" width={800} height={597} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out" />
                                         </div>
                                         <h4 className="text-3xl font-bold text-white mb-3">جلسة تنظيف البشرة بفيتامين C</h4>
                                         <p className="text-orange-400 mb-6 font-medium text-lg">تفتيح ونضارة | تحفيز كولاجين</p>
@@ -134,8 +133,7 @@ export default function ClinicLandingPage() {
                                     <div>
                                         <div className="w-full h-48 md:h-56 rounded-2xl overflow-hidden mb-8 relative border border-white/5 group-hover:border-blue-500/30 transition-colors duration-500">
                                             <div className="absolute inset-0 bg-gradient-to-t from-[#111] via-black/20 to-transparent z-10" />
-                                            {/* eslint-disable-next-line @next/next/no-img-element */}
-                                            <img src="/oceansecrets.jpg" alt="Ocean Secrets Caviar" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out" />
+                                            <Image src="/oceansecrets.jpg" alt="Ocean Secrets Caviar" width={800} height={597} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out" />
                                         </div>
                                         <h4 className="text-3xl font-bold text-white mb-3">جلسة Ocean Secrets بالكافيار</h4>
                                         <p className="text-blue-400 mb-6 font-medium text-lg">علاج وترطيب عميق للبشرة</p>
@@ -170,8 +168,7 @@ export default function ClinicLandingPage() {
                                     <div>
                                         <div className="w-full h-48 md:h-56 rounded-2xl overflow-hidden mb-8 relative border border-white/5 group-hover:border-[#D4AF37]/30 transition-colors duration-500">
                                             <div className="absolute inset-0 bg-gradient-to-t from-[#111] via-black/20 to-transparent z-10" />
-                                            {/* eslint-disable-next-line @next/next/no-img-element */}
-                                            <img src="/closeup-portrait-beautiful-woman-cosmetology-therapy-beauty-salon-professional-dermatology-procedures-lifting-rejuvenation-modern-devices-healthcare.jpg" alt="Hydrafacial" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out" />
+                                            <Image src="/closeup-portrait-beautiful-woman-cosmetology-therapy-beauty-salon-professional-dermatology-procedures-lifting-rejuvenation-modern-devices-healthcare.jpg" alt="Hydrafacial" width={800} height={533} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out" />
                                         </div>
                                         <h4 className="text-3xl font-bold text-white mb-3">جلسة الهايدرافيشل (CO2)</h4>
                                         <p className="text-[#D4AF37] mb-6 font-medium text-lg">تنظيف مسام عميق | شد خفيف</p>
