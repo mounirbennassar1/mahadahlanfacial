@@ -137,9 +137,8 @@ export function HeroScene() {
 
                     <div className="overflow-hidden mb-12">
                         <p ref={description} className="max-w-xl text-lg md:text-2xl text-zinc-300 leading-relaxed font-light drop-shadow-md bg-black/40 backdrop-blur-sm p-4 rounded-2xl md:bg-transparent md:backdrop-blur-none md:p-0">
-                            نقدم باقة متكاملة من جلسات تنظيف البشرة، الهايدرافيشل، وعلاج تساقط الشعر باستخدام
-                            <strong className="text-[#D4AF37] font-medium"> أحدث الأجهزة الطبية </strong>
-                            وبروتوكولات معتمدة تناسب مختلف أنواع البشرة.
+                            نقدم في مجمع عيادات د. مها دحلان | <strong className="text-[#D4AF37] font-medium">MD Clinics</strong> مجموعة متقدمة من علاجات البشرة المصممة لتحسين صحة البشرة واستعادة نضارتها.
+                            من جلسات تنظيف البشرة المتقدمة إلى تقنيات الهيدرافيشل وتنظيف الفروة، يتم تنفيذ كل إجراء باستخدام <strong className="text-[#D4AF37] font-medium">أجهزة طبية حديثة</strong> وبروتوكولات معتمدة تناسب احتياجات كل بشرة.
                         </p>
                     </div>
 

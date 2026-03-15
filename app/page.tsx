@@ -245,8 +245,8 @@ export default function ClinicLandingPage() {
                                 </div>
 
                                 <div className="absolute bottom-6 left-6 right-6">
-                                    <h4 className="text-white font-bold text-xl mb-2">جلسة الهايدرافيشل</h4>
-                                    <p className="text-zinc-300 text-sm">شاهد خطوات تنظيف البشرة العميق وتصغير المسام خطوة بخطوة.</p>
+                                    <h4 className="text-white font-bold text-xl mb-2">جلسة ديتوكس فروة الرأس</h4>
+                                    <p className="text-zinc-300 text-sm">شاهدي خطوات تنظيف وتنقية الفروة بعمق خطوة بخطوة</p>
                                 </div>
                             </div>
 
@@ -267,8 +267,8 @@ export default function ClinicLandingPage() {
                                 </div>
 
                                 <div className="absolute bottom-6 left-6 right-6">
-                                    <h4 className="text-white font-bold text-xl mb-2">علاج سيسلوز</h4>
-                                    <p className="text-zinc-300 text-sm">اكتشف تفاصيل الدقة والعناية في تقديم هذا البروتوكول العلاجي.</p>
+                                    <h4 className="text-white font-bold text-xl mb-2">جلسة سيكيولوز ثيرابي العلاجية</h4>
+                                    <p className="text-zinc-300 text-sm">عالجي بشرتك من الأعماق وتخلصي من آثار الإرهاق والتعب</p>
                                 </div>
                             </div>
 
@@ -289,8 +289,8 @@ export default function ClinicLandingPage() {
                                 </div>
 
                                 <div className="absolute bottom-6 left-6 right-6">
-                                    <h4 className="text-white font-bold text-xl mb-2">جلسات كورية</h4>
-                                    <p className="text-zinc-300 text-sm">اكتشف تفاصيل الدقة والعناية في تقديم هذا البروتوكول العلاجي.</p>
+                                    <h4 className="text-white font-bold text-xl mb-2">الجلسة الكورية للبشرة الزجاجية</h4>
+                                    <p className="text-zinc-300 text-sm">احصلي على بشرة لامعة وصحية مع الجلسة الكورية</p>
                                 </div>
                             </div>
 
