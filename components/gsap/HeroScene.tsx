@@ -144,13 +144,13 @@ export function HeroScene() {
 
                     <div ref={ctaGroup} className="flex flex-col sm:flex-row items-center justify-start gap-4 md:gap-6">
                         <MagneticButton>
-                            <a href="https://wa.me/966503377702" target="_blank" rel="noopener noreferrer" className="group relative w-full sm:w-auto px-8 md:px-12 py-5 bg-[#D4AF37] text-black font-bold text-lg overflow-hidden transition-all hover:scale-105 active:scale-95 block text-center rounded-2xl">
+                            <a href="https://wa.me/966503377702?text=مرحباً%20عندي%20استفسار%20عن%20الخدمات%20والأسعار%20(عروض_جوجل)" target="_blank" rel="noopener noreferrer" className="group relative w-full sm:w-auto px-8 md:px-12 py-5 bg-[#D4AF37] text-black font-bold text-lg overflow-hidden transition-all hover:scale-105 active:scale-95 block text-center rounded-2xl">
                                 <span className="relative z-10">احجز موعدك الآن</span>
                                 <div className="absolute inset-0 h-full w-full bg-white/30 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out z-0 rounded-2xl"></div>
                             </a>
                         </MagneticButton>
                         <MagneticButton>
-                            <a href="https://wa.me/966503377702" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-8 md:px-12 py-5 border border-white/20 hover:border-[#D4AF37]/50 bg-black/40 hover:bg-black/60 text-white font-medium backdrop-blur-md transition-all duration-300 text-lg block text-center rounded-2xl">
+                            <a href="https://wa.me/966503377702?text=مرحباً%20عندي%20استفسار%20عن%20الخدمات%20والأسعار%20(عروض_جوجل)" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-8 md:px-12 py-5 border border-white/20 hover:border-[#D4AF37]/50 bg-black/40 hover:bg-black/60 text-white font-medium backdrop-blur-md transition-all duration-300 text-lg block text-center rounded-2xl">
                                 اكتشف خدماتنا
                             </a>
                         </MagneticButton>
